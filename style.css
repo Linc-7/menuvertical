@@ -1,20 +1,19 @@
 :root {
-    --cor-principal: rgb(12, 31, 141);
-    --cor-secundaria: rgb(66, 107, 168);
-    --cor-fonte:white; 
+    --cor-principal: rgb(61, 111, 185);
+    --cor-secundaria: rgb(16, 54, 112);
+    --cor-fonte:rgb(255, 255, 255); 
 }
 
 nav{
-    max-width: 350px;
+    max-width: 300px;
     width: 100%;
-    
-   
     
 }
 nav ul li{
-    border: 2px solid var(--cor-secundaria); 
+    border: 1px solid var(--cor-secundaria); 
     border-radius: 8px;
     background-color: var(--cor-principal) ;
+    transition: background .9s;
 }
 
 nav ul{
@@ -24,8 +23,9 @@ nav ul{
 
 nav ul li:hover{
 
-    background-image: url(https://static.tudointeressante.com.br/uploads/2014/09/imagens-quebrar-leis.jpg);
-    
+    /*background-image: url(https://static.tudointeressante.com.br/uploads/2014/09/imagens-quebrar-leis.jpg);*/
+    background-image: url("./img/BD.jpeg");
+    background-position: center;
 }
 
 nav ul li a{
@@ -35,6 +35,6 @@ nav ul li a{
     font-size: 18px;
     font-weight: bolder;
     text-decoration: none;
-    transition: background .9s;
+  
 
 }
