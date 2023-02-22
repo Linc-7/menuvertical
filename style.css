@@ -1,14 +1,20 @@
 :root {
-    --cor-principal: rgb(65, 39, 158);
-    --cor-secundaria: rgb(43, 19, 129);
+    --cor-principal: rgb(12, 31, 141);
+    --cor-secundaria: rgb(66, 107, 168);
     --cor-fonte:white; 
 }
 
 nav{
     max-width: 350px;
     width: 100%;
-    background-color: var(--cor-principal) ;
     
+   
+    
+}
+nav ul li{
+    border: 2px solid var(--cor-secundaria); 
+    border-radius: 8px;
+    background-color: var(--cor-principal) ;
 }
 
 nav ul{
@@ -19,6 +25,7 @@ nav ul{
 nav ul li:hover{
 
     background-image: url(https://static.tudointeressante.com.br/uploads/2014/09/imagens-quebrar-leis.jpg);
+    
 }
 
 nav ul li a{
@@ -28,5 +35,6 @@ nav ul li a{
     font-size: 18px;
     font-weight: bolder;
     text-decoration: none;
+    transition: background .9s;
 
 }
